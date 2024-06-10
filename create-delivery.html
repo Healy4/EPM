@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Доставки</title>
+    <link
+      rel="stylesheet"
+      href="css/main.css
+    "
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="create">
+      <div style="display: flex; gap: 20px; justify-content: space-between">
+        <h1>Создание доставки</h1>
+        <div class="logout">
+          <a href="/delivery.html" style="color: black">Назад</a>
+        </div>
+      </div>
+
+      <div class="delivery__info">
+        <div class="create__wrapper">
+          <h3>Доставка: D-0001-0002</h3>
+          <span style="color: grey; font-weight: 300">Введите:</span>
+          <div class="create__table">
+            <ul class="create__titles">
+              <li class="create__title">Дата доставки:</li>
+              <li class="create__title">Поставщик:</li>
+              <li class="create__title">ТК:</li>
+              <li class="create__title">Водитель:</li>
+              <li class="create__title">Номер машины:</li>
+            </ul>
+            <ul class="create__infos">
+              <li class="create__info">
+                <input id="datetime-local" type="datetime-local" />
+              </li>
+              <li class="create__info">
+                <input type="text" />
+              </li>
+              <li class="create__info">
+                <input type="text" />
+              </li>
+              <li class="create__info">
+                <input type="text" />
+              </li>
+              <li class="create__info">
+                <input type="text" />
+              </li>
+            </ul>
+          </div>
+          <button>
+            <span>Завершить</span>
+            <img src="img/galochka.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <script type="text/javascript" src="js/date.js"></script>
+      <br />
+    </section>
+  </body>
+</html>

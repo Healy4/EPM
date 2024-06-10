@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Доставки</title>
+    <link
+      rel="stylesheet"
+      href="css/main.css
+    "
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="create">
+      <div style="display: flex; gap: 20px; justify-content: space-between">
+        <h1>Создание партии</h1>
+        <div class="logout">
+          <a href="/delivery.html" style="color: black">Назад</a>
+        </div>
+      </div>
+
+      <div class="delivery__info">
+        <div class="create__wrapper">
+          <h3>Партия: B-0001-0001</h3>
+          <span style="color: grey; font-weight: 300">Введите:</span>
+          <div class="create__table">
+            <ul class="create__titles">
+              <li class="create__title">Классификатор:</li>
+              <li class="create__title">Товар:</li>
+              <li class="create__title">Наименование:</li>
+              <li class="create__title">Кол-во:</li>
+            </ul>
+            <ul class="create__infos">
+              <li class="create__info">
+                <input type="text" />
+              </li>
+              <li class="create__info">
+                <input type="text" />
+              </li>
+              <li class="create__info">
+                <input type="text" />
+              </li>
+              <li class="create__info">
+                <input type="text" />
+              </li>
+            </ul>
+          </div>
+          <div
+            class="create__wrapper"
+            style="background: white; margin-top: 20px"
+          >
+            <span>Выбор коробa:</span>
+            <div class="wrapper_2" style="display: flex; gap: 10px">
+              <div
+                class="create__wrapper"
+                style="background: white; margin-top: 20px"
+              >
+                <ol>
+                  <li>BX-001</li>
+                  <li>BX-002</li>
+                  <li>BX-010</li>
+                </ol>
+              </div>
+              <div
+                class="create__wrapper"
+                style="background: white; margin-top: 20px; width: 67%"
+              >
+                <span>Ручной выбор:</span>
+                <span style="font-size: 10px; padding-top: 10px"
+                  >Введите номер короба</span
+                >
+                <div style="display: flex; gap: 10px; padding-top: 5px">
+                  <span>Номер:</span>
+                  <input
+                    type="text"
+                    style="
+                      border: None;
+                      border-bottom: 1px solid black;
+                      width: 100%;
+                      max-width: 100px;
+                      outline: none;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button>
+            <span>Завершить</span>
+            <img src="img/galochka.svg" alt="" />
+          </button>
+        </div>
+      </div>
+
+      <br />
+    </section>
+  </body>
+</html>

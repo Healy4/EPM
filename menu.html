@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Меню</title>
+    <link
+      rel="stylesheet"
+      href="css/main.css
+    "
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="menu">
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <h1>Меню</h1>
+        <div class="logout">
+          <a href="/authorization.html" style="color: black">Выйти из APM</a>
+          <img src="img/logout.svg" alt="" />
+        </div>
+      </div>
+
+      <br />
+      <div class="menu__layout">
+        <section class="menu-left">
+          <div class="menu__wrapper">
+            <h2>Авторизованный сотрудник: Солдатов Н.В.</h2>
+            <ul class="menu__items">
+              <li class="menu__item">
+                <a
+                  href="/delivery.html
+                "
+                  ><span>Доставка</span><img src="img/delivery.svg" alt=""
+                /></a>
+              </li>
+              <li class="menu__item">
+                <a href="#"
+                  ><span>Складские операции</span
+                  ><img src="img/operations.svg" alt=""
+                /></a>
+              </li>
+              <li class="menu__item">
+                <a href="#"
+                  ><span>Партии</span><img src="img/partii.svg" alt=""
+                /></a>
+              </li>
+              <li class="menu__item">
+                <a href="#"
+                  ><span>Аналитика</span><img src="img/analytic.svg" alt=""
+                /></a>
+              </li>
+              <li class="menu__item">
+                <a href="#"
+                  ><span>Последние действия</span
+                  ><img src="img/last.svg" alt=""
+                /></a>
+              </li>
+              <li class="menu__item">
+                <a href="#"
+                  ><span>Справочники</span><img src="img/books.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="menu-right">
+          <div class="menu__operation">
+            <div class="menu__wrapper">
+              <h2>Недавние операции:</h2>
+              <ul class="operation__items">
+                <li class="operation__item">NM-0001 22.04 12:00</li>
+                <li class="operation__item">NM-0002 22.04 16:30</li>
+              </ul>
+            </div>
+          </div>
+          <div class="menu__operation">
+            <div class="menu__wrapper">
+              <h2>Ожидающиеся доставки:</h2>
+              <ul class="operation__items">
+                <li class="operation__item">ND-0018 22.04 6:00</li>
+                <li class="operation__item">ND-0019 22.04 7:00</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

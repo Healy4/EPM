@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Доставки</title>
+    <link
+      rel="stylesheet"
+      href="css/main.css
+    "
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sklad">
+      <div style="display: flex; gap: 20px; justify-content: space-between">
+        <h1>Складские операции: создание</h1>
+        <div class="logout">
+          <a href="/delivery.html" style="color: black">Назад</a>
+        </div>
+      </div>
+
+      <div class="sklad__info">
+        <div class="sklad__wrapper">
+          <div class="sklad__header">
+            <div class="header__left">
+              <ul style="display: flex; flex-direction: column; gap: 5px">
+                <li>
+                  <span>Дата начала:</span>
+                  <input id="datetime-local" type="datetime-local" />
+                </li>
+                <li>
+                  <span>Дата конца:</span>
+                  <input id="datetime-local" type="datetime-local" />
+                </li>
+              </ul>
+            </div>
+            <div class="header__right">
+              <ul style="display: flex; flex-direction: column; gap: 8px">
+                <li>
+                  <span>Тип:</span>
+                  <select name="Тип" id="">
+                    <option value="Прием">Прием</option>
+                    <option value="Отгрузка">Отгрузка</option>
+                    <option value="Инвентаризация">Инвентаризация</option>
+                  </select>
+                </li>
+                <li>
+                  <span>Статус:</span>
+                  <select name="Статус" id="">
+                    <option value="Прием">Активен</option>
+                    <option value="Отгрузка">Неактивен</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="sklad__textarea">
+            <textarea name="" id="" placeholder="Комментарий"></textarea>
+          </div>
+          <div class="sklad__buttons">
+            <a class="party" href="/create-party.html">Создать партию</a>
+            <a class="end" href="/create-party.html">
+              <span>Завершить</span>
+              <img src="img/galochka.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="js/date.js"></script>
+      <br />
+    </section>
+  </body>
+</html>
